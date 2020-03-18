@@ -2,7 +2,7 @@
 <div>
     <h1>{{storename}}</h1>
     <ul class="store-inner">
-        <li v-for="(prod,index) in products" :key="prod"> {{prod}} <button @click="addProd(index)">+</button></li>
+        <li v-for="(prod,index) in products" :key="prod"><p>{{prod.name}}</p><p>P{{prod.price}}</p> <button @click="addProd(index)">+</button></li>
     </ul>
 </div>
 </template>
