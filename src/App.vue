@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <div class="cart-container">
-      <cart :owner_data="{name:'Lord Nath', loc:'Phil'}" :items_data="this.toadd"></cart>
+      <cart :owner_data="{name:'Boss Nath', loc:'Phil'}" :items_data="this.toadd"></cart>
     </div>
     <div class="store-container">
       <store :storename_data="'Tindahan ni Aleng Nena'" :products_data="[{name:'alcohol', price:1000}, {name:'facemask', price:1000000}, 
